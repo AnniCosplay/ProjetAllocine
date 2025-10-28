@@ -1,0 +1,38 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.navbar{
+  background: linear-gradient(to bottom, rgb(11, 90, 20), rgb(13, 160, 146));
+}
+
+.card:hover{
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.test{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*::-webkit-scrollbar-thumb{
+  background-color: black;
+  border-radius: 15px;
+}
+
+*::-webkit-scrollbar-track{
+  color: grey;
+  border-radius: 15px;
+}
+
+.dropdown-menu {
+  max-height: 200px;
+  overflow-y: auto;
+}
